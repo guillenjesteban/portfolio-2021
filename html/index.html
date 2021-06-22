@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- nav -->
+
+    <nav>
+        <div class="name">
+        <h2>Esteban Guillen</h2>
+        </div>
+        <div class="breadcrumb">
+        <a class="about" href="#about">About</a>
+        </div>
+    </nav>
+
+    <!-- footer -->
+
+    <footer>
+        <div class="links-container">
+        <a class="github" href="https://github.com/guillenjesteban/">Github</a>
+        <a class="behance" href="https://www.behance.net/estebanguillen">Behance</a>
+        <a class="linkedin" href="https://www.linkedin.com/in/guillenjesteban/">Linkedin</a>
+        </div>
+        <div class="lets-talk">
+            <a href="mailto:guillenjesteban@gmail.com">Let's Talk</a>
+        </div>
+    </footer>
+
+    <!-- background -->
+
+    
+
+
+    <!-- prueba -->
+<div class="section-container">
+    <section class="section">
+        <div class="fixed">
+            <h1 class="intro-text">Hello! <br> 
+            I'm Esteban, I design and develop user interfaces, digital products and brands that solve user problems through effective & tested solutions with competitive and creative aesthetics.</h1>
+           
+        </div>
+        <div class="bg"></div>
+    </section>
+
+    <section class="section">
+        <a class="section-link" href="/html/monkiki-project.html"><div class="fixed project">
+            <h2>Monkiki App</h2>
+            <h3>UI/UX App Design, Branding, <br>Web Development, Web Design</h3>
+        </div>
+        <div class="bg"></div>
+        </a>
+    </section>
+
+    <section class="section">
+        <a class="section-link" href="/html/bookbuster-project.html"><div class="fixed project">
+            <h2>Book Buster App</h2>
+            <h3>Branding, UI/UX App Design</h3>
+        </div>
+        </a>
+        
+    </section>
+
+    <section class="section">
+        <a class="section-link" href="/html/gifos-project.html"><div class="fixed project">
+            <h2>Gifos App</h2>
+            <h3>Front End Development, <br>REST API, Web Design</h3>
+        </div>
+        </a>
+    </section>
+
+    <section class="section">
+        <a class="section-link" href="/html/casaereaux-project.html"><div class="fixed project">
+            <h2>Casa Ereaux Wines Web</h2>
+            <h3>Branding, Web Development, Web Design</h3>
+        </div>
+    </a>
+    </section>
+
+    <section class="section">
+        <a class="section-link" href="/html/valleaustral-project.html"><div class="fixed project">
+            <h2>Valle Austral Wines Web</h2>
+            <h3>SOON ////// UNDER CONSTRUCTION</h3>
+        </div>
+        </a>
+    </section>
+
+    <section id="about" class="section">
+        <div class="fixed">
+            <h2 class="whyme">Why Me?</h2>
+            <h3>I build a bridge between design and development.</h3>
+            <div class="skills-wrapper">
+                <div class="skill-wrapper">
+                    <i></i>
+                    <p class="skill-title">+5 Years Designing</p>
+                    <p class="skill-subtitle">With expertise in Branding Design.</p>
+                </div>
+
+                <div class="skill-wrapper">
+                    <i></i>
+                    <p class="skill-title">2 Years As a Manager.</p>
+                    <p class="skill-subtitle">Experience in task managing and leadership.</p>
+                </div>
+
+                <div class="skill-wrapper">
+                    <i></i>
+                    <p class="skill-title">Front End Development</p>
+                    <p class="skill-subtitle">Developing, testing and deploying digital interfaces.</p>
+                </div>
+                </div>
+                <div class="skills-wrapper">
+
+                <div class="skill-wrapper">
+                    <i></i>
+                    <p class="skill-title">Self Taught Spirit</p>
+                    <p class="skill-subtitle">I'm always seeking new technologies and latest trends on design.</p>
+                </div>
+
+                <div class="skill-wrapper">
+                    <i></i>
+                    <p class="skill-title">Over-Attentive to Detail</p>
+                    <p class="skill-subtitle">I believe details make the difference and my eye is trained for it.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+</div>
+
+
+<!-- play study case button -->
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script>
+    $( ".project" ).hover(
+  function() {
+    $( this ).append( $( "<span class='play'> <i class='fas fa-play'></i> Play Study Case</span>" ) );
+
+    $(".play").animate({
+    opacity: 1,
+  }, 500 );
+    
+  }, function() {
+    $( this ).find( "span" ).last().remove();
+    
+  },
+  
+);
+
+
+// project links 
+
+// $(".fixed").click(function() {
+// location.href= "https://google.com";
+// });
+ 
+</script>
+</body>
+</html>
