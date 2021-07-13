@@ -452,19 +452,19 @@ span {
 
 .view:hover {
     color: white;
-    background-color: fuchsia;
-    box-shadow: 2px 2px 20px 1px fuchsia;
+    background-color: blue;
+    box-shadow: 2px 2px 20px 1px blue;
 }
 
 .view:focus {
     color: white;
-    background-color: fuchsia;
-    box-shadow: 2px 2px 20px 1px fuchsia;
+    background-color: blue;
+    box-shadow: 2px 2px 20px 1px blue;
 }
 
 .view:active {
     color: white;
-    background: fuchsia;
+    background: blue;
 }
 
 .lets-talk {
@@ -481,8 +481,8 @@ span {
 }
 
 .lets-talk:hover {
-    box-shadow: 2px 2px 30px 1px fuchsia;
-    background-color: fuchsia;
+    box-shadow: 2px 2px 30px 1px blue;
+    background-color: blue;
     
 
 }
